@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "vite": "^4.0.3",
-    "vite-plugin-ssr": "0.4.140"
-  },
-  "type": "module"
-}
