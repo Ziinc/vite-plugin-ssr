@@ -1,0 +1,33 @@
+{
+  "name": "vite-plugin-saurus",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "*Like Next.js/Nuxt but as do-one-thing-do-it-well Vite plugin.*",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@brillout/require-shim": "^0.1.2",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@brillout/picocolors": "^1.0.9",
+    "fast-glob": "^3.3.1"
+  }
+}
